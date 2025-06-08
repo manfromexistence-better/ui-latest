@@ -22,7 +22,7 @@
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
-        install = "cd shadcn-ui/apps/www && pnpm install";
+        install = "cd luxe/apps/www && pnpm install";
         # Open editors for the following files by default, if they exist:
         default.openFiles = [
           # Cover all the variations of language, src-dir, router (app/pages)
@@ -37,7 +37,7 @@
       enable = true;
       previews = {
         web = {
-          command = [ "sh" "-c" "cd shadcn-ui/apps/www && bun run dev --port $PORT --hostname 0.0.0.0" ];
+          command = [ "sh" "-c" "cd luxe/apps/www && pnpm run dev --port $PORT --hostname 0.0.0.0" ];
           manager = "web";
         };
       };
