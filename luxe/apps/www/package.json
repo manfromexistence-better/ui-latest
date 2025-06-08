@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome check --write .",
-    "prepare": "husky"
+    "lint": "biome check --write ."
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.0",
